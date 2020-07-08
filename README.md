@@ -1,6 +1,9 @@
 # url_Shortny
 简单防红短链接，短链接生成，短链接加密，短链接二维码，短链接API，短链接自定义后缀
 
+<img src="http://img.atusu.cn/images/2020/07/08/QQ20200708124602.png" alt="QQ20200708124602.png" border="0" />
+<img src="http://img.atusu.cn/images/2020/07/08/QQ20200708132548.png" alt="QQ20200708132548.png" border="0" />
+
 二维码API，QQ内部自动替换至浏览器打开，自定义广告
 ### 前端：
 简洁、优雅、反应灵敏的设计
