@@ -5,6 +5,8 @@
 
 基于Shortny v2.0.1改版
 
+### 演示站：https://sssn.top/
+
 <img src="https://github.com/urldl/url_Shortny/blob/master/img/QQ%E6%88%AA%E5%9B%BE20200708124602.png" border="0" />
 
 <img src="https://github.com/urldl/url_Shortny/blob/master/img/QQ%E6%88%AA%E5%9B%BE20200708132548.png" border="0" />
@@ -59,4 +61,4 @@ https://xxx/install/index.html
 
 后台路径：https://xxx/admin/index.php
 
-### 演示站：https://sssn.top/
+
