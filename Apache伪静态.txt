@@ -1,1 +1,10 @@
-.htaccess   ÎÄ¼şÄÚµÄ¾ÍÊÇÁË£¬×Ô¼º´ò¿ªÈ»ºó°ÑÓòÃû¸Ä³ÉÄã×Ô¼ºµÄ
+RewriteEngine on 
+RewriteRule ^about                about.php [L]
+RewriteRule ^api-about            api-about.php [L]
+RewriteRule ^contact              contact.php [L]
+RewriteRule ^tos                  tos.php [L]
+RewriteRule ^([^/.]+)/?$          link.php?id=$1 [L]
+RewriteRule ^404                  404.php [L]
+Options -Indexes
+ErrorDocument 404 http://è‡ªå·±çš„åŸŸå/404
+ErrorDocument 403 http://è‡ªå·±çš„åŸŸå/404
