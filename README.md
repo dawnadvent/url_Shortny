@@ -22,29 +22,6 @@ QQ内自动跳转至浏览器（默认不带需要本功能需在https://sssn.to
 安装
 环境要求：PHP、Mysql、Nginx/Apache
 
-伪静态设置
-Apache，编辑.htaccess文件，将本地地址修改成自己的域名
-RewriteEngine on 
-RewriteRule ^about                about.php [L]
-RewriteRule ^api-about            api-about.php [L]
-RewriteRule ^contact              contact.php [L]
-RewriteRule ^tos                  tos.php [L]
-RewriteRule ^([^/.]+)/?$          link.php?id=$1 [L]
-RewriteRule ^404                  404.php [L]
-Options -Indexes
-ErrorDocument 404 http://自己的域名/404
-ErrorDocument 403 http://自己的域名/404
-
-Nginx，将下面例子的域名改成自己的
-rewrite ^/about /about.php last;
-rewrite ^/api-about /api-about.php last;
-rewrite ^/contact /contact.php last;
-rewrite ^/tos /tos.php last;
-rewrite ^/([^/.]+)/?$ /link.php?id=$1 last;
-rewrite ^/404 /404.php last;
-error_page 404 http://自己的域名/404;
-error_page 403 http://自己的域名/404;
-
 然后开始安装，由于伪静态问题，只能通过具体路径安装，链接如下：
 #安装路径，记得修改下面域名地址
 
