@@ -1,10 +1,13 @@
 # url_Shortny
 简单防红短链接，短链接生成，短链接加密，短链接二维码，短链接API，短链接自定义后缀
 
+二维码API，QQ内部自动替换至浏览器打开，自定义广告
+
+基于Shortny v2.0.1改版
+
 <img src="https://github.com/urldl/url_Shortny/blob/master/img/QQ%E6%88%AA%E5%9B%BE20200708132548.png" border="0" />
 <img src="https://github.com/urldl/url_Shortny/blob/master/img/QQ%E6%88%AA%E5%9B%BE20200708124602.png" border="0" />
 
-二维码API，QQ内部自动替换至浏览器打开，自定义广告
 ### 前端：
 简洁、优雅、反应灵敏的设计
 
