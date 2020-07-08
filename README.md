@@ -5,8 +5,10 @@
 
 基于Shortny v2.0.1改版
 
-<img src="https://github.com/urldl/url_Shortny/blob/master/img/QQ%E6%88%AA%E5%9B%BE20200708132548.png" border="0" />
 <img src="https://github.com/urldl/url_Shortny/blob/master/img/QQ%E6%88%AA%E5%9B%BE20200708124602.png" border="0" />
+
+<img src="https://github.com/urldl/url_Shortny/blob/master/img/QQ%E6%88%AA%E5%9B%BE20200708132548.png" border="0" />
+
 
 ### 前端：
 简洁、优雅、反应灵敏的设计
